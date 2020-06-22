@@ -1,0 +1,31 @@
+.card {
+    box-shadow: 2px 2px 3px 0 rgb(142, 142, 142);
+    border-left: 0.3em solid #5e005e76;
+}
+
+.card-title {
+    padding: 1.5em;
+    background-color: #eedeee;
+    min-height: 2.2em;
+}
+
+.card-container {
+    padding: 1em 2em;
+}
+
+.card-footer {
+    padding-top: 0.5em;
+    border-top: 1px dashed #5e005e76;
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    bottom: 10px;
+}
+
+li {
+    width: 8em;
+    text-transform: uppercase;
+    margin-right: 2em;
+    color: #5e005e76;
+}

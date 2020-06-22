@@ -1,0 +1,5 @@
+@import '../components/typography.css';
+
+body {
+    background-color: aqua;
+}

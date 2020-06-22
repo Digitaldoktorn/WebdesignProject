@@ -1,0 +1,53 @@
+h1, h2, h3 {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: #222;
+    
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-top: 1em;
+    color: #5e005e;
+    letter-spacing: 0.25rem;
+    text-align: center;
+}
+
+header h3 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 0.22rem;
+    margin-top: 0.4em;
+    text-align: center;
+}
+
+p, body {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 1rem;
+}
+
+p {
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9b009b;
+}
+
+.recent-posts a {
+    text-transform: none;
+    color: #222;
+
+}
+
+.card-footer {
+    font-size: 0.65em;
+}
+
+.card-footer li{
+    color: #333;
+}

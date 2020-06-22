@@ -1,0 +1,243 @@
+@import 'components/typography.css';
+@import 'components/cards.css';
+@import 'components/buttons.css';
+
+body, ul, li, h1, h2, h3, a {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom right, #ff9900, #ffd000);
+}
+
+header, section, footer {
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+footer {
+    padding-bottom: 4em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+nav li {
+    display: block;
+    width: 6em;
+    text-transform: uppercase;
+    margin-right: 3em;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%
+}
+
+
+
+/* .sticky-nav {
+    background-color: #333;
+    position: fixed;
+    padding: 1em;
+} */
+
+input[type=search] {
+    padding: 0.4em;
+    border: 2px solid #5e005e;
+    border-radius: 0.5em;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+.grid-featured-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-auto-rows: minmax(20em, auto);
+    grid-gap: 2em;
+    justify-content: center;
+    max-width: 1346px;
+    margin: 0 auto;
+}
+
+.featured-posts {
+    background-color: #f1f1f1;
+}
+
+.featured-post{
+    background-color: #fff;
+}
+
+.grid-recent-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-auto-rows: minmax(20em, auto);
+    grid-gap: 2em;
+    justify-content: center;
+    max-width: 1346px;
+    margin: 0 auto;
+}
+
+.recent-posts{
+    background-color: #fcfcfc;
+
+}
+
+.recent-post {
+    background-color: #fff;
+}
+
+.tags {
+    background-color: #5e005e76;
+}
+
+.grid-tags {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: minmax(2em, auto);
+    grid-gap: 1.2em;
+    justify-content: center;
+    max-width: 1346px;
+    margin: 0 auto;
+}
+
+.tag {
+    width: 9em;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #000;
+    padding: 0.5em;
+    font-size: 0.7rem;
+    border: 3px solid #fff;
+    border-radius: 1em;
+    text-align: center;
+    line-height: 1.2rem;
+    justify-self: center;
+}
+
+.tag-1 {
+    background-color: #31E9A0;
+}
+.tag-2 {
+    background-color: rgb(3, 167, 243);
+}
+.tag-3 {
+    background-color: rgb(157, 168, 0);
+}
+.tag-4 {
+    background-color: rgb(240, 4, 4);
+}
+.tag-5 {
+    background-color: rgb(43, 58, 187);
+}
+.tag-6 {
+    background-color: rgb(1, 73, 1);
+}
+.tag-7 {
+    background-color: rgb(69, 2, 71);
+}
+.tag-8 {
+    background-color: rgb(3, 67, 78);
+}
+.tag-9 {
+    background-color: rgb(122, 0, 0);
+}
+
+footer {
+    background-color: #5e005e;
+    color: #fff;
+}
+
+.grid-section-headers {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    max-width: 1346px;
+    margin: 0 auto;
+    
+}
+
+.section-header {
+    margin-top: 0.5em;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    padding-bottom: 0.2em;
+    color: #dc143c;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+    justify-content: center;
+    max-width: 1346px;
+    margin: 0 auto;
+    
+}
+
+.footer-column {
+    justify-self: center;
+}
+@media screen and (max-width: 798px) {
+    nav ul {
+        display: block;
+    }
+}
+@media screen and (max-width: 670px){
+    header h1 {
+        font-size: 2rem;
+        margin-top: 1em;
+        color: #5e005e;
+        text-align: center;
+    }
+
+    header h3 {
+        font-size: 1em;
+        text-transform: uppercase;
+        margin-top: 0.4em;
+        text-align: center;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+
+    .grid-section-headers {
+        margin-left: 0.5em;
+        
+    }
+
+    .section-header {
+        margin-top: 0.5em;
+        font-size: 1.4em;
+        letter-spacing: 0.5rem;
+        padding-bottom: 0.2em;
+        color: #dc143c;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+
+    .grid-footer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1em;
+        justify-content: center;
+    }
+}
+
+
